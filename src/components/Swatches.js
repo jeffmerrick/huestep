@@ -81,6 +81,7 @@ const Swatches = ({ colors }) => (
     direction="row"
     align="stretch"
     fill="vertical"
+    flex={{ shrink: 12 }}
     startColor={first(colors)}
     endColor={last(colors)}
   >

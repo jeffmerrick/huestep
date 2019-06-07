@@ -36,7 +36,7 @@ const Export = ({ colors }) => {
         primary
       />
       <Collapsible open={showPanel}>
-        <Box height="100vh" direction="row">
+        <Box height="50vh" direction="row">
           {showPanel && (
             <Fragment>
               <Box basis="1/2" pad="small">
