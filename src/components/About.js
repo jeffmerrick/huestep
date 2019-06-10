@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Text, Anchor, Button } from 'grommet'
+import { Box, Text, Anchor } from 'grommet'
 
 import styled from 'styled-components'
 
@@ -14,7 +14,7 @@ const About = () => {
     <Box pad="small" direction="row" justify="between">
       <Box>
         <AboutText size="xsmall">
-          A thing by <Anchor href="http://wireform.io" secondary label="Jeff" />
+          Made by <Anchor href="http://wireform.io" secondary label="Jeff" />
         </AboutText>
       </Box>
       <Box>
